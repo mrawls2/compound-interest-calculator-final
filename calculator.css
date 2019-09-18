@@ -1,0 +1,288 @@
+body {
+	font-family: sans-serif;
+	margin:79.529px 72.663px;
+	width: 800px;
+	background-color: #d4effb;
+}
+
+body * {
+	box-sizing: border-box;
+}
+
+ul li {
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+h1 {
+	height: 88.978px;
+	font-size: 39.41px;
+	background-color: #23546d;
+	color: white;
+	border-radius:20px;
+	text-align:center;
+	padding-top: 2.5%;
+	margin-bottom: 33.095px;
+	margin-left: 5%;
+}
+
+h2 {
+	height: 88.978px;
+	font-size: 39.41px;
+	background-color: #23546d;
+	color: white;
+	border-radius:20px;
+	text-align:center;
+	padding-top: 2.5%;
+	margin-bottom: 110px;
+	margin-left: 5%;
+	margin-top: 10%;
+}
+
+input {
+	width: 220px;
+	font-size: 38px;
+	background-color: white;
+	border-radius: 0px 20px 20px 0px;
+	text-align: right;
+	color: black;
+	padding: 10px 10px;
+}
+
+input:hover{
+	cursor: text;
+}
+
+span {
+	width: 120px;
+	height: 68px;
+	font-size: 35px;
+	background-color: #1790cf;
+	border-radius: 20px 0px 0px 20px;
+	text-align: center;
+	color: white;
+	padding: 16px 10px;
+	margin-right: -10px;
+	display: inline-block;
+}
+
+.submit-button {
+	width: 380px;
+	height: 75.269px;
+	font-size: 38.14px;
+	background-color: white;
+	border-radius: 20px;
+	text-align: center;
+	color: black;
+	margin-left: 4.6%;
+}
+
+.submit-button:hover {
+	background: #008FCC;
+	color: white;
+}
+
+.submit-button:active {
+	background-color: #23546D;
+}
+
+.input-list {
+	display: flex;
+}
+
+.entry-label {
+	width: 380px;
+	height: 192.474px;
+	font-size: 38.14px;
+	background-color: #1790cf;
+	border-radius: 20px 0px 0px 20px;
+	text-align: center;
+	color: white;
+	padding-top: 70px;
+	margin-bottom: 28px;
+	display: inline-block;
+}
+
+.entry-label2 {
+	width: 380px;
+	height: 192.474px;
+	font-size: 38.14px;
+	background-color: #1790cf;
+	border-radius: 20px 0px 0px 20px;
+	text-align: center;
+	color: white;
+	padding-top: 55px;
+	margin-bottom: 28px;
+	display: inline-block;
+}
+
+.entry-value {
+	width: 380px;
+	height: 192.474px;
+	background-color: #93dff9;
+	border-radius: 0px 20px 20px 0px;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.placeholder {
+	color: #cccccc;
+}
+
+.finalVal {
+	font-size: 100px;
+	background-color: white;
+	text-align:center;
+	color: black;
+	height: 100px;
+	width: 900px;
+	margin-left: 5%;
+	border-radius: 20px;
+	padding: 70px 158px;
+	margin-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+
+	body {
+		margin:70px 45px;
+		width: 850px;
+	}
+
+	h1 {
+		height: 120px;
+		font-size: 45px;
+		padding-top: 4%;
+		margin-bottom: 50px;
+	}
+
+	.entry-label {
+		width: 400px;
+		height: 190px;
+		font-size: 50px;
+		padding-top: 60px;
+		margin-left: 1.5%;
+		margin-bottom: 50px;
+	}
+
+	.entry-label2 {
+		width: 400px;
+		height: 190px;
+		font-size: 50px;
+		padding-top: 38px;
+		margin-left: 1.5%;
+		margin-bottom: 50px;
+	}
+
+	.entry-value {
+		width: 400px;
+		height: 190px;
+		padding-top: 50px;
+	}
+
+	input {
+		width: 240px;
+		height: 90px;
+		font-size: 35px;
+	}
+
+	span {
+		width: 100px;
+		height: 90px;
+		font-size: 30px;
+		padding: 29.5px 10px;
+		margin-right: -10px;
+	}
+
+	.submit-button {
+		width: 400px;
+		height: 80px;
+		font-size: 45px;
+		margin-left: 6%;
+	}
+
+	.finalVal {
+		height: 100px;
+		width: 900px;
+		margin-left: 5%;
+		padding: 70px 180px;
+	}
+
+}
+
+@media (min-width: 1200px) {
+	body {
+		margin:70px 25px;
+		width: 1100px;
+	}
+
+	h1 {
+		height: 120px;
+		font-size: 60px;
+		padding-top: 2%;
+		margin-bottom: 50px;
+	}
+
+	h2 {
+		height: 120px;
+		font-size: 60px;
+		padding-top: 2%;
+		margin-bottom: 125px;
+	}
+
+	.entry-label {
+		width: 500px;
+		height: 220px;
+		font-size: 50px;
+		padding-top: 70px;
+		margin-left: 1.5%;
+		margin-bottom: 50px;
+	}
+
+	.entry-label2 {
+		width: 500px;
+		height: 220px;
+		font-size: 50px;
+		padding-top: 48px;
+		margin-left: 1.5%;
+		margin-bottom: 50px;
+	}
+
+	.entry-value {
+		width: 550px;
+		height: 220px;
+		padding-top: 60px;
+	}
+
+	input {
+		width: 300px;
+		height: 90px;
+		font-size: 40px;
+	}
+
+	span {
+		width: 130px;
+		height: 90px;
+		font-size: 40px;
+		padding: 23.5px 10px;
+		margin-right: -10px;
+	}
+
+	.submit-button {
+		width: 500px;
+		height: 90px;
+		font-size: 40px;
+		margin-left: 4.8%;
+	}
+
+	.finalVal {
+		font-size: 100px;
+		height: 100px;
+		width: 900px;
+		margin-left: 5%;
+		padding: 70px 300px;
+		margin-bottom: 30px;
+	}
+
+
+}

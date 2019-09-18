@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Compound Interest Calculator</title>
+	<meta name="description" content="DESCRIPTION">
+	<link rel="stylesheet" href="calculator.css">
+
+	<!--[if lt IE 9]>
+	<script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<h1>Compound Interest Calculator</h1>
+
+	<form>
+		<ul>
+			<li class="input-list">
+				<div class="entry-label2">
+					<label for="amount">Starting<br>Amount</label>
+				</div>
+				<form action="/action_page.php">
+					<div class="entry-value">
+						<span>$</span>
+						<input type="number" name="amount" placeholder="1000">
+					</div>
+				</form>
+			</li>
+			<li class="input-list">
+				<div class="entry-label2">
+					<label for="interest">Interest<br>Rate</label>
+				</div>
+				<form action="/action_page.php">
+					<div class="entry-value">
+						<span>%</span>
+						<input type="number" name="interest" placeholder="2">
+					</div>
+				</form>
+			</li>
+			<li class="input-list">
+				<div class="entry-label2">
+					<label for="contribution">Annual<br>Contribution</label>
+				</div>
+				<form action="/action_page.php">
+					<div class="entry-value">
+						<span>$</span>
+						<input type="number" name="contribution" placeholder="300">
+					</div>
+				</form>
+			</li>
+			<li class="input-list">
+				<div class="entry-label">
+					<label for="duration">Duration</label>
+				</div>
+				<form action="/action_page.php">
+					<div class="entry-value">
+						<span>years</span>
+						<input type="number" name="duration" placeholder="20" style:"cursor:text">
+					</div>
+				</form>
+			</li>
+		</ul>
+		<button class="submit-button" type="button" onclick="calculate()">RESULTS</button>
+	</form>
+	<section>
+		<h2>Results</h2>
+			<section= class="finalVal final-val"></section>
+		<div class="result-bar-chart"></div>
+		<canvas id="piechart" style="display: block; margin-top: 150px; height: 400px; width: 800px;" width="1600" height="800" class="chartjs-render-monitor"></canvas>
+	</section>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
